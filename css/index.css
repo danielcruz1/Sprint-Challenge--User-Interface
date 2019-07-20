@@ -278,7 +278,7 @@ footer nav a {
 
 .about {
     padding-bottom: 20px;
-    border-bottom: dotted;
+    border-bottom: 2px dotted;
 }
 
 .learn-more-button {
@@ -288,14 +288,71 @@ footer nav a {
 	text-align: center;
 	font-size: 12px;
 	color: black;
-	border: 1px solid black;
+    border: 1px solid black;
 }
 
 .four-box-flex { 
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.four-box-flex p {
+    padding-bottom: 20px;
+}
+
+.strategy {
+    margin-top: 40px;
+    width: 390px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 800px; 
+    justify-content: center;
+    padding-left: 10px;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
 }
+
+.how-we-work {
+    margin-top: 40px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
+}
+
+.places-we-work {
+    margin-top: 40px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
+}
+
+.collaboration {
+    margin-top: 40px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
+}
+
+.lets-work-together {
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+
 
