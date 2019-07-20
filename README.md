@@ -50,7 +50,7 @@ Cross axis.
 
 5. Explain why git is valuable to a team of developers.
 
-Git is a version control system that allows for regulated changes to a code base. Allows developers access to previous versions of code in case the current version needs to be rolled back to a stable version.
+Git is a version control system that allows for regulated changes to a code base. Allows developers access to previous versions of code in case the current version needs to be rolled back to a stable version. -
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
