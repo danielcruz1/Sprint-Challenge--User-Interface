@@ -273,3 +273,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT PAGE */
+
+.about {
+    padding-bottom: 20px;
+    border-bottom: dotted;
+}
+
+.learn-more-button {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	border: 1px solid black;
+}
+
+.four-box-flex { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 800px; 
+}
+
