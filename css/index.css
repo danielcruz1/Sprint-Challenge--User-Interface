@@ -66,6 +66,37 @@ p {
     line-height: 1.4;
 }
 
+/* My CODE STARTS HERE */
+
+/* NAVIGATION */
+
+body {
+    width: 800px;
+    margin: auto;
+}
+
+.nav-links {
+	display: flex;
+    justify-content: space-between;
+    
+}
+.nav-links a {
+	text-decoration: none;
+	color: gray;
+	padding-top: 45px;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* BODY */
+
+.img {
+    padding-bottom: 25px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,10 +132,108 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +273,86 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT PAGE */
+
+.about {
+    padding-bottom: 20px;
+    border-bottom: 2px dotted;
+}
+
+.learn-more-button {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 12px;
+	color: black;
+    border: 1px solid black;
+}
+
+.four-box-flex { 
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.four-box-flex p {
+    padding-bottom: 20px;
+}
+
+.strategy {
+    margin-top: 40px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
+}
+
+.how-we-work {
+    margin-top: 40px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
+}
+
+.places-we-work {
+    margin-top: 40px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
+}
+
+.collaboration {
+    margin-top: 40px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
+}
+
+.lets-work-together {
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+
+
